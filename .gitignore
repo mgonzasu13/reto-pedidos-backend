@@ -1,0 +1,57 @@
+# =========================
+# .NET / Visual Studio
+# =========================
+.vs/
+**/.vs/
+**/bin/
+**/obj/
+**/*.user
+**/*.suo
+**/*.userosscache
+**/*.sln.docstates
+
+# Visual Studio extra
+*.userprefs
+*.rsuser
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.VC.opendb
+
+# =========================
+# Logs / temporales
+# =========================
+*.log
+*.tmp
+*.cache
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Secrets / configs locales
+# =========================
+**/appsettings.Development.json
+**/appsettings.Local.json
+**/*secrets*.json
+
+# =========================
+# EF Core / DB files locales
+# =========================
+**/*.mdf
+**/*.ldf
+**/*.db
+
+# =========================
+# Publish artifacts (opcional)
+# =========================
+**/publish/
+
+# =========================
+# Otros editores
+# =========================
+.vscode/
+.idea/
